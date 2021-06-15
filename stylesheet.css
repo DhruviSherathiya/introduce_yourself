@@ -215,8 +215,8 @@ header
 {
     .myself { display:block; height:auto; }
     .myself img {margin-left:calc(10% - 10px);width:200px;height:250px;align-items: center;}
-    .details .icons { margin-left:2%;}
-    .details .icons a { padding-left:3%;}
+    .details .icons { margin-left:4%;}
+    .details .icons a { padding-left:8%;}
 }
 /* --------------------------------------------------------- Education ---------------------------------------------------------- */
 h1
