@@ -20,7 +20,7 @@ header
     float: left;
     margin: 0 0 0 5%;
     font-size:35px;
-    font-family:Apple Chancery, cursive;
+    font-family: 'Arvo', serif;
 }
 .menu
 {
@@ -275,7 +275,7 @@ h1
     position: relative;
     border-radius: 6px;
 }
-.content span { font-family:Bradley Hand, cursive;} 
+.content span { font-family: 'Arvo', serif;} 
 .content a:hover { color:#000080; } 
 .content a:visited { color:#474e5d;} 
 .overlay
