@@ -12,6 +12,7 @@ header
     font-family: sans-serif;
     background-color:#000080;
     color:white;
+    position:fixed;
 }
 .brand
 {
