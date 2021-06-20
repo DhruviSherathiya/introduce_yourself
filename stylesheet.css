@@ -89,6 +89,7 @@ header
     background-image: url("images/banner.jfif");
     background-repeat: no-repeat;
     background-size:cover;
+    height:100%;
 }
 .heading1
 {
@@ -124,43 +125,7 @@ header
     transition: all 0.5s;
     position: relative;
 }
-.home-btns
-{ display: flex; margin-left:30%;}
-
-/* .about-me::before,.contact-me::before {
-	content: '';
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	z-index: 1;
-	background-color: rgba(255,255,255,0.1);
-	transition: all 0.3s;
-}
-.about-me:hover::before,.contact-me:hover::before {
-	opacity: 0 ;
-	transform: scale(0.5,0.5);
-}
-.about-me::after,.contact-me::after {
-	content: '';
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	z-index: 1;
-	opacity: 0;
-	transition: all 0.3s;
-	border: 1px solid rgba(255,255,255,0.5);
-	transform: scale(1.2,1.2);
-}
-.about-me:hover::after,.contact-me:hover::after {
-	opacity: 1;
-	transform: scale(1,1);
-}
- */
-
+.home-btns{ display: flex; margin-left:30%;}
 @media screen and (max-width: 768px)
 {
     .heading1 {font-size:30px;}
