@@ -86,7 +86,7 @@ header
 /* --------------------------------------------------------------- Home Page --------------------------------------------------- */
 .home 
 { 
-    background-image: url("images/bgimg.svg");
+    background-image: url("images/banner.jfif");
     background-repeat: no-repeat;
     background-size:cover;
 }
