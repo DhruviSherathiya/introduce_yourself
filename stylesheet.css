@@ -194,7 +194,7 @@ header
     filter: blur(0);
     transform: scale(1.2);
 }
-.myself img:hover {filter: blur(2px);transform: scale(1);}
+.myself img:hover {filter: blur(2px);transform: scale(1);-webkit-transform: scaleX(-1);transform: scaleX(-1);}
 .myself p
 {
     padding-left:10%;
