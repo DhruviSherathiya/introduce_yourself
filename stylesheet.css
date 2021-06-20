@@ -121,16 +121,13 @@ header
     /* transform: translateX(250%); */
     text-align: center;
     margin-left:5%;
+    transition: all 0.5s;
+    position: relative;
 }
 .home-btns
 { display: flex; margin-left:30%;}
-.about-me,.contact-me
-{
-	color:white;
-	transition: all 0.5s;
-	position: relative;
-}
-.about-me::before,.contact-me::before {
+
+/* .about-me::before,.contact-me::before {
 	content: '';
 	position: absolute;
 	top: 0;
@@ -162,7 +159,7 @@ header
 	opacity: 1;
 	transform: scale(1,1);
 }
-
+ */
 
 @media screen and (max-width: 768px)
 {
